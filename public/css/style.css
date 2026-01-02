@@ -2783,6 +2783,9 @@ tspan {
   .other_info .oi_item > div p {
     display: none;
   }
+  .header_slider .sc_r .sc_item h2 {
+    font-size: 24px;
+  }
   .news_info {
     grid-template-columns: 1fr !important;
     gap: 20px;

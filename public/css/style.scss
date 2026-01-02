@@ -2394,6 +2394,15 @@ tspan{
             }
         }
     }
+    .header_slider{
+        .sc_r{
+            .sc_item{
+                h2{
+                    font-size: $s2_4;
+                }
+            }
+        }
+    }
     .news_info{
         grid-template-columns: 1fr !important;
         gap: $s2;
