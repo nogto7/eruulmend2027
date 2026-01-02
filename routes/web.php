@@ -17,8 +17,23 @@ Route::get('login', [AuthenticatedSessionController::class, 'create'])
 Route::post('login', [AuthenticatedSessionController::class, 'store']);
 
 Route::get('/admin/news', function () {
-    return view('admin/news/index');
-})->middleware(['auth', 'verified'])->name('dashboard');
+    return view('admin.news.create');
+})->middleware(['auth', 'verified'])->name('admin/index');
+
+Route::get('/admin/news/list', function () {
+    $newsList = \App\Models\News::latest()->paginate(15);
+    return view('admin.news.index', compact('newsList'));
+})->middleware(['auth', 'verified'])->name('list');
+
+Route::get('/admin/news/edit/{news}', [AdminNewsController::class, 'edit'])
+    ->middleware(['auth', 'verified'])
+    ->name('admin.news.edit');
+
+Route::patch('/admin/news/{news}', [AdminNewsController::class, 'update'])
+    ->middleware(['auth', 'verified'])
+    ->name('admin.news.update');
+
+
 
 Route::prefix('admin')->name('admin.')->group(function () {
 
