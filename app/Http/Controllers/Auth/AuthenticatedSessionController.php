@@ -28,7 +28,8 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
 
-        return redirect()->intended(route('admin/news/list', absolute: false));
+        // return redirect()->intended(route('admin/news/list', absolute: false));
+        return redirect('/admin/news/list');
     }
 
     /**

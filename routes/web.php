@@ -55,4 +55,6 @@ Route::get('/news/{slug}', [NewsController::class, 'show'])->name('news.detail')
 
 Route::get('/about', [AboutController::class, 'about']);
 
+Route::get('/logout', [AuthenticatedSessionController::class, 'destroy']);
+
 require __DIR__.'/auth.php';

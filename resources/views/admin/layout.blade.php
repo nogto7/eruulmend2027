@@ -22,7 +22,7 @@
                 <div class="admin_hr">
                     <ul>
                         <li><a href="/">Сайт харах</a></li>
-                        <li><a href="/logout">Гарах</a></li>
+                        <li><a href="{{ route('logout') }}">Гарах</a></li>
                     </ul>
                 </div>
             </div>
