@@ -1,0 +1,66 @@
+/* FontFace */
+@font-face {
+  font-family: "YesevaOne";
+  font-weight: 400;
+  src: url("../fonts/YesevaOne-Regular.ttf") format("truetype"), url("../fonts/YesevaOne-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ChBodoni";
+  font-weight: 400;
+  src: url("../fonts/ChBodoni/ChBodoni.ttf") format("truetype"), url("../fonts/ChBodoni/ChBodoni.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ChBodoni";
+  font-weight: 600;
+  src: url("../fonts/ChBodoni/ChBodoniBold.ttf") format("truetype"), url("../fonts/ChBodoni/ChBodoniBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZonaPro";
+  font-weight: 300;
+  src: url("../fonts/ZonaPro/ZonaPro-Light.otf") format("opentype"), url("../fonts/ZonaPro/ZonaPro-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "ZonaPro";
+  font-weight: 400;
+  src: url("../fonts/ZonaPro/ZonaPro-Regular.otf") format("opentype"), url("../fonts/ZonaPro/ZonaPro-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "ZonaPro";
+  font-weight: 500;
+  src: url("../fonts/ZonaPro/ZonaPro-SemiBold.otf") format("opentype"), url("../fonts/ZonaPro/ZonaPro-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "ZonaPro";
+  font-weight: 600;
+  src: url("../fonts/ZonaPro/ZonaPro-Bold.otf") format("opentype"), url("../fonts/ZonaPro/ZonaPro-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "ZonaPro";
+  font-weight: 700;
+  src: url("../fonts/ZonaPro/ZonaPro-ExtraBold.otf") format("opentype"), url("../fonts/ZonaPro/ZonaPro-ExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Relaway";
+  font-weight: 300;
+  src: url("../fonts/Relaway/Raleway-Light.ttf") format("truetype"), url("../fonts/Relaway/Raleway-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Relaway";
+  font-weight: 400;
+  src: url("../fonts/Relaway/Raleway-Regular.ttf") format("truetype"), url("../fonts/Relaway/Raleway-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Relaway";
+  font-weight: 500;
+  src: url("../fonts/Relaway/Raleway-Medium.ttf") format("truetype"), url("../fonts/Relaway/Raleway-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Relaway";
+  font-weight: 600;
+  src: url("../fonts/Relaway/Raleway-SemiBold.ttf") format("truetype"), url("../fonts/Relaway/Raleway-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Relaway";
+  font-weight: 700;
+  src: url("../fonts/Relaway/Raleway-Bold.ttf") format("truetype"), url("../fonts/Relaway/Raleway-Bold.ttf") format("truetype");
+}/*# sourceMappingURL=fonts.css.map */

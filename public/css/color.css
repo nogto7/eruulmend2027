@@ -1,0 +1,36 @@
+/* Color */
+:root {
+  --backgroundColor: #f8f2ee;
+  --primaryColor: #003bff;
+  --primaryHoverColor: #001faa;
+  --baseColor: #2a2a2a;
+  --baseColorHover: #24252a;
+  --darkBlueColor: #294895;
+  --secondColor: #119f84;
+  --secondHoverColor: #0f8a73;
+  --c1: #119f84;
+  --c2: #1a6b51;
+  --c3: #b05a36;
+  --brandSTColor: rgb(63,198,215);
+  --inputBg: #f1f3f4;
+  --borderColor: #d7dae5;
+  --borderGrayColor: #e9e9e9;
+  --textColor: #555;
+  --grayText: #858585;
+  --lgrayText: #353535;
+  --lgrayColor: #f4f5f6;
+  --checkradioBg: #f3f5f6;
+  --switchBg: #f0f2f3;
+  --itemBorder: #f5f3f0;
+  --saleColor: #b2b2b2;
+  --boxBg: #f5f7ff;
+  --grayColor: #e1e6eb;
+  --grayColorHover: #d0d7dd;
+  --lightGrayColor: #eceff3;
+  --spacing-top: clamp(3*1rem,((3 - ((6.2 - 3)/(var(--max-viewport) - var(--min-viewport))*var(--min-viewport)))*1rem + ((6.2 - 3)/(var(--max-viewport) - var(--min-viewport)))*100vw),6.2*1rem);
+  --spacing-bottom: clamp(3*1rem,((3 - ((6.2 - 3)/(var(--max-viewport) - var(--min-viewport))*var(--min-viewport)))*1rem + ((6.2 - 3)/(var(--max-viewport) - var(--min-viewport)))*100vw),6.2*1rem);
+  --min-viewport: 23.5;
+  --max-viewpor: 90;
+}
+
+/* Color End *//*# sourceMappingURL=color.css.map */

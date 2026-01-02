@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 340 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path d="M340,20L340,230C340,241.038 331.038,250 320,250L20,250C8.962,250 0,241.038 0,230L0,20C0,8.962 8.962,0 20,0L320,0C331.038,0 340,8.962 340,20Z" style="fill:rgb(233,245,241);"/>
+    <path d="M340,20L340,230C340,241.038 331.038,250 320,250L20,250C8.962,250 0,241.038 0,230L0,20C0,8.962 8.962,0 20,0L320,0C331.038,0 340,8.962 340,20ZM339.167,20C339.167,9.422 330.578,0.833 320,0.833L20,0.833C9.422,0.833 0.833,9.422 0.833,20L0.833,230C0.833,240.578 9.422,249.167 20,249.167L320,249.167C330.578,249.167 339.167,240.578 339.167,230L339.167,20Z" style="fill:rgb(168,201,187);"/>
+    <g transform="matrix(26.0361,0,0,1.3499,-770.922,-154.099)">
+        <rect x="30.895" y="132.932" width="10.68" height="77.073" style="fill:url(#_Linear1);"/>
+    </g>
+    <g transform="matrix(1.01969,0,0,1,-2.90548,4.38594)">
+        <path d="M41.155,128.981L308.363,128.981" style="fill:none;stroke:rgb(199,222,215);stroke-width:2.06px;stroke-dasharray:4.13,4.13,0,0,0,0;"/>
+    </g>
+    <g transform="matrix(1,0,0,1.01931,-2.09519,0.428132)">
+        <path d="M161.561,168.035L161.561,204.937" style="fill:none;stroke:rgb(219,213,211);stroke-width:0.99px;stroke-linecap:square;"/>
+    </g>
+    <g transform="matrix(2.24436,0,0,2.24436,-87.1127,-287.33)">
+        <circle cx="162.525" cy="159.27" r="5.954" style="fill:none;stroke:rgb(26,107,81);stroke-opacity:0.1;stroke-width:0.74px;stroke-linecap:round;"/>
+    </g>
+    <g transform="matrix(3.56269,0,0,3.56269,-301.373,-497.299)">
+        <circle cx="162.525" cy="159.27" r="5.954" style="fill:none;stroke:rgb(26,107,81);stroke-opacity:0.1;stroke-width:0.47px;stroke-linecap:round;"/>
+    </g>
+    <g transform="matrix(1,0,0,3.52369,116.09,-512.812)">
+        <path d="M161.561,168.035L161.561,204.937" style="fill:none;stroke:rgb(180,210,202);stroke-width:0.48px;stroke-linecap:square;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-2.09519,4.38594)">
+        <path d="M168.478,151.963L272.44,71.403" style="fill:none;stroke:rgb(219,213,211);stroke-width:1.25px;stroke-linecap:square;"/>
+    </g>
+    <g transform="matrix(0.83983,0,0,0.83983,22.9728,28.1536)">
+        <circle cx="162.525" cy="159.27" r="5.954" style="fill:url(#_Linear2);stroke:rgb(176,90,54);stroke-width:1.19px;stroke-linecap:round;"/>
+    </g>
+    <g transform="matrix(0.83983,0,0,0.83983,141.158,-63.6296)">
+        <circle cx="162.525" cy="159.27" r="5.954" style="fill:none;stroke:rgb(26,107,81);stroke-width:2.98px;stroke-linecap:round;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-2.09519,7.43766)">
+        <g transform="matrix(10.8333,0,0,10.8333,117.527,172.193)">
+        </g>
+        <text x="46.428px" y="172.193px" style="font-family:'Raleway-SemiBold', 'Raleway';font-weight:600;font-size:10.833px;fill:rgb(77,77,77);">ӨМНӨХ ЖИЛ</text>
+    </g>
+    <g transform="matrix(1,0,0,1,78.543,52.3315)">
+        <g transform="matrix(10.8333,0,0,10.8333,101.466,172.193)">
+        </g>
+        <text x="60.69px" y="172.193px" style="font-family:'Raleway-SemiBold', 'Raleway';font-weight:600;font-size:10.833px;fill:rgb(142,142,142);">2026 он</text>
+    </g>
+    <g transform="matrix(1,0,0,1,196.406,52.3315)">
+        <g transform="matrix(10.8333,0,0,10.8333,101.147,172.193)">
+        </g>
+        <text x="61.009px" y="172.193px" style="font-family:'Raleway-SemiBold', 'Raleway';font-weight:600;font-size:10.833px;fill:rgb(142,142,142);">2027 он</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-2.09519,-92.0571)">
+        <g transform="matrix(10.8333,0,0,10.8333,106.141,172.193)">
+        </g>
+        <text x="46.428px" y="172.193px" style="font-family:'Raleway-SemiBold', 'Raleway';font-weight:600;font-size:10.833px;fill:rgb(77,77,77);">ХҮРЭХ ЦЭГ</text>
+    </g>
+    <g transform="matrix(1,0,0,1,151.016,-99.0835)">
+        <g transform="matrix(11.6667,0,0,11.6667,89.8979,172.193)">
+        </g>
+        <text x="42.975px" y="172.193px" style="font-family:'Raleway-Bold', 'Raleway';font-weight:700;font-size:11.667px;fill:rgb(77,77,77);">ДНБ  5%</text>
+    </g>
+    <g transform="matrix(0.936357,0,0,0.96013,-0.457824,11.4581)">
+        <path d="M41.575,138.14L41.575,204.798C41.575,207.672 39.182,210.005 36.235,210.005C33.288,210.005 30.895,207.672 30.895,204.798L30.895,138.14C30.895,135.266 33.288,132.932 36.235,132.932C39.182,132.932 41.575,135.266 41.575,138.14Z" style="fill:url(#_Linear3);stroke:rgb(176,90,54);stroke-width:1.05px;stroke-linecap:round;"/>
+    </g>
+    <g transform="matrix(0.936357,0,0,1.3499,-0.457824,-154.099)">
+        <path d="M41.575,136.636L41.575,206.301C41.575,208.346 39.182,210.005 36.235,210.005C33.288,210.005 30.895,208.346 30.895,206.301L30.895,136.636C30.895,134.592 33.288,132.932 36.235,132.932C39.182,132.932 41.575,134.592 41.575,136.636Z" style="fill:none;stroke:rgb(147,185,169);stroke-width:0.86px;stroke-linecap:round;"/>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(10.6797,0,0,77.0729,30.8953,171.469)"><stop offset="0" style="stop-color:rgb(233,245,241);stop-opacity:1"/><stop offset="0.5" style="stop-color:rgb(217,238,227);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(233,245,241);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0119072,11.9072,-11.9072,0.0119072,162.513,153.317)"><stop offset="0" style="stop-color:rgb(233,176,153);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(189,107,73);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(4.83917e-15,-77.0729,584.82,3.49232e-14,36.2351,210.005)"><stop offset="0" style="stop-color:rgb(201,122,89);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(233,177,154);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
