@@ -1855,11 +1855,9 @@ section {
 
 .news_content figure, .news_content .img_block {
   position: relative;
-  height: 100%;
   margin: 10px 0;
 }
 .news_content figure img, .news_content .img_block img {
-  height: 100%;
   width: 100%;
   -o-object-position: center center;
      object-position: center center;
@@ -2813,6 +2811,9 @@ tspan {
     display: none;
   }
   .header_slider .sc_r .sc_item h2 {
+    font-size: 24px;
+  }
+  .news_detail .title {
     font-size: 24px;
   }
   .news_info {

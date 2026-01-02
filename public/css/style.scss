@@ -1416,10 +1416,8 @@ section{
 .news_content{
     figure, .img_block{
         position: $pr;
-        height: 100%;
         margin: $s1 0;
         img{
-            height: 100%;
             width: 100%;
             object-position: $c $c;
             object-fit: cover;
@@ -2442,6 +2440,11 @@ tspan{
                     font-size: $s2_4;
                 }
             }
+        }
+    }
+    .news_detail{
+        .title{
+            font-size: $s2_4;
         }
     }
     .news_info{
