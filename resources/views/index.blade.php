@@ -169,7 +169,7 @@
             <h1 class="title">Санал, хүсэлт</h1>
             <div class="sub_title">Салбарынхаа тулгамдсан асуудал, шинэ санаачилга, <br>бүтээлч шийдлийг бидэнтэй хуваалцаарай.</div>
             <div class="feedback_form">
-                <form action="sendFeedback" method="POST">
+                <form action="{{ route('feedback.send') }}" method="POST">
                     @csrf
                     <div class="dg g2 gap1_2">
                         <div class="form_item required">

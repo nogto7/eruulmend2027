@@ -1,15 +1,21 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\NewsController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\Admin\AdminNewsController;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
+use App\Http\Controllers\FeedbackController;
+use App\Http\Controllers\NewsController;
+use App\Http\Controllers\ProfileController;
+use App\Models\News;
+use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('index');
-});
+
+// Route::get('/', function () {
+//     return view('index');
+// });
+
+Route::get('/', [FeedbackController::class, 'index']);
+Route::post('/send-feedback', [FeedbackController::class, 'store'])->name('feedback.send');
 
 Route::get('login', [AuthenticatedSessionController::class, 'create'])
     ->name('login');
@@ -33,13 +39,9 @@ Route::patch('/admin/news/{news}', [AdminNewsController::class, 'update'])
     ->middleware(['auth', 'verified'])
     ->name('admin.news.update');
 
-
-
 Route::prefix('admin')->name('admin.')->group(function () {
-
     Route::post('news/upload', [AdminNewsController::class, 'upload'])
         ->name('news.upload');
-
     Route::resource('news', AdminNewsController::class);
 });
 
@@ -52,9 +54,7 @@ Route::middleware('auth')->group(function () {
 // News pages
 Route::get('/news', [NewsController::class, 'index']);
 Route::get('/news/{slug}', [NewsController::class, 'show'])->name('news.detail');
-
 Route::get('/about', [AboutController::class, 'about']);
-
 Route::get('/logout', [AuthenticatedSessionController::class, 'destroy']);
 
 require __DIR__.'/auth.php';
