@@ -15,7 +15,13 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [FeedbackController::class, 'index']);
-Route::post('/send-feedback', [FeedbackController::class, 'store'])->name('feedback.send');
+
+Route::get('/feedback', function () {
+    return view('feedback.feedback');
+})->name('feedback.feedback');
+
+Route::post('/send-feedback', [FeedbackController::class, 'store'])
+    ->name('feedback.send');
 
 Route::get('login', [AuthenticatedSessionController::class, 'create'])
     ->name('login');

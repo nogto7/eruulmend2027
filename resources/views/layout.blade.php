@@ -24,7 +24,7 @@
                 </ul>
             </div>
             <div class="header_right">
-                <a class="em_button btn_primary" href="#feedback" class="page-scroll">Санал өгөх</a>
+                <a class="em_button btn_primary" href="/feedback" class="page-scroll">Санал өгөх</a>
             </div>
         </div>
     </nav>
